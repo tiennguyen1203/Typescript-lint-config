@@ -1,7 +1,3 @@
-const world = 'world';
-
-export default function hello(word: string = world) {
-  return `Hello ${word}! `;
+export default function hello(world = 'world'): string {
+  return `Hello ${world}`;
 }
-
-console.error('123123');

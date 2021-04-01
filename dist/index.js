@@ -1,5 +1,4 @@
-const world = "world";
-export function hello(word = world) {
-    return `Hello ${world}! `;
+export default function s(world = 'world') {
+  return `Hello ${world}`;
 }
-//# sourceMappingURL=index.js.map
+// # sourceMappingURL=index.js.map
